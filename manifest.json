@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "wikiXtension",
+    "version": "1.0",
+  
+    "description": "Obtiene los H1 correspondientes al sitio, guardando aquellas palabras de mas de 5 letras. Luego hace un requerimiento a Wikipedia con dichas palabras y retorna los titulos que coincidan con dicha busqueda.",
+    
+    "icons": {
+        "48": "src/resources/icons/wikipedia.png"
+    },
+
+    "permissions": ["<all_urls>"],
+
+    "browser_action": {
+        "default_icon": "src/resources/icons/wikipedia.png",
+        "default_title": "WikiTitles",
+        "default_popup": "src/resources/wikiXtension.html"
+      }
+    
+}

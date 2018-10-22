@@ -1,0 +1,27 @@
+html, body {
+    width: 100px;
+  }
+
+  .button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  .title:hover {
+    background-color: rgb(153, 233, 233);
+  }
+  
+  .title {
+   background-color: rgb(216, 241, 241);
+  }
+  
+  .clear {
+   background-color: rgb(233, 233, 167);
+  }
+  
+  .clear:hover {
+   background-color: rgb(233, 233, 127);
+  }
